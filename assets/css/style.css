@@ -1,0 +1,77 @@
+        /* Global reset ve font ayarları */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #000; /* Tam siyah arka plan */
+            color: #fff; /* Beyaz metin rengi */
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        /* Ana konteynır */
+        .container {
+            background-color: #333; /* Koyu gri arka plan */
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 20px rgba(255, 255, 255, 0.1); /* Beyaz tonunda gölge */
+            width: 100%;
+            max-width: 600px;
+            text-align: center;
+        }
+        /* Başlık stilleri */
+        h1 {
+            color: #fff; /* Beyaz metin rengi */
+            margin-bottom: 20px;
+        }
+        /* Mesajlar bölümü */
+        #messages {
+            background-color: #222; /* Koyu gri arka plan */
+            padding: 15px;
+            border-radius: 6px;
+            max-height: 300px;
+            overflow-y: auto;
+            margin-bottom: 20px;
+            text-align: left;
+        }
+        /* Mesaj kutuları */
+        .message {
+            background-color: #444; /* Gri tonunda arka plan */
+            padding: 10px;
+            border-radius: 5px;
+            margin-bottom: 10px;
+            box-shadow: 0 2px 4px rgba(255, 255, 255, 0.1); /* Beyaz tonunda gölge */
+        }
+        /* Giriş formu */
+        #messageForm {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+            margin-bottom: 20px;
+        }
+        #messageForm input[type="text"] {
+            flex: 1;
+            padding: 10px;
+            border: 1px solid #888; /* Gri tonunda çerçeve */
+            border-radius: 5px;
+            font-size: 16px;
+            background-color: #000; /* Tam siyah arka plan */
+            color: #fff; /* Beyaz metin rengi */
+            outline: none;
+        }
+        #messageForm input[type="submit"] {
+            background-color: #16a085; /* Yeşil */
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+            font-size: 16px;
+            outline: none;
+        }
+        #messageForm input[type="submit"]:hover {
+            background-color: #1abc9c; /* Açık yeşil */
+        }

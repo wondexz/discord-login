@@ -1,0 +1,32 @@
+{
+  "name": "discord-login",
+  "version": "1.0.0",
+  "description": "Discord login system.",
+  "main": "app.js",
+  "scripts": {
+    "test": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wondexz/discord-login.git"
+  },
+  "keywords": [
+    "discord-login",
+    "discord",
+    "discordapp",
+    "login"
+  ],
+  "author": "wondexz",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wondexz/discord-login/issues"
+  },
+  "homepage": "https://github.com/wondexz/discord-login#readme",
+  "dependencies": {
+    "ejs": "^3.1.10",
+    "express": "^4.19.2",
+    "express-session": "^1.18.0",
+    "passport": "^0.7.0",
+    "passport-discord": "^0.1.4"
+  }
+}
